@@ -38,4 +38,4 @@ rm -rf %{buildroot}
 %{_bindir}/fontprop.sh
 %{_bindir}/xauth_switch_to_sun-des-1
 %{_bindir}/fontname.sh
-%{_mandir}/man1/xon.1x.bz2
+%{_mandir}/man1/xon.1x*

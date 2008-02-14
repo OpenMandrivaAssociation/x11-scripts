@@ -3,6 +3,7 @@ Version: 1.0.1
 Release: %mkrel 4
 Summary: scripts for X
 Group: Development/X11
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: http://xorg.freedesktop.org/releases/individual/app/scripts-%{version}.tar.bz2
 Patch0: xauth_switch_to_sun-des_bash.patch
 License: MIT

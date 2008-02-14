@@ -1,7 +1,7 @@
 Name: x11-scripts
 Version: 1.0.1
 Release: %mkrel 4
-Summary: scripts for X
+Summary: Scripts for X
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: http://xorg.freedesktop.org/releases/individual/app/scripts-%{version}.tar.bz2

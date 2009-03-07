@@ -1,6 +1,6 @@
 Name: x11-scripts
 Version: 1.0.1
-Release: %mkrel 6
+Release: %mkrel 7
 Summary: Scripts for X
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot

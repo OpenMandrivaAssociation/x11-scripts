@@ -1,0 +1,9 @@
+diff -rud scripts-1.0.1-orig/xauth_switch_to_sun-des-1.cpp scripts-1.0.1/xauth_switch_to_sun-des-1.cpp
+--- scripts-1.0.1-orig/xauth_switch_to_sun-des-1.cpp	2004-09-17 19:24:35.000000000 -0300
++++ scripts-1.0.1/xauth_switch_to_sun-des-1.cpp	2006-03-22 16:56:01.000000000 -0300
+@@ -1,4 +1,4 @@
+-XCOMM!/bin/ksh
++XCOMM!/bin/bash
+ XCOMM X11 MIT-MAGIC-COOKIE to SUN-DES-1 auth. 
+ XCOMM this script switched the current Xservers authentification 
+ XCOMM (usually MIT-MAGIC-COOKIE-1) to SUN-DES-1.

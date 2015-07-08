@@ -19,7 +19,8 @@ using rsh, remsh, or rcmd.
 %patch0 -p1
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
+%configure \
+		--x-includes=%{_includedir}\
 		--x-libraries=%{_libdir}
 
 %make

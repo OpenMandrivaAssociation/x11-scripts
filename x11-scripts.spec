@@ -1,6 +1,6 @@
 Name:		x11-scripts
 Version:	1.0.1
-Release:	22
+Release:	23
 Summary:	Scripts for X
 Group:		Development/X11
 License:	MIT

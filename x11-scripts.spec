@@ -6,6 +6,11 @@ Group:		Development/X11
 License:	MIT
 Source0:	http://xorg.freedesktop.org/releases/individual/app/scripts-%{version}.tar.bz2
 Patch0:		xauth_switch_to_sun-des_bash.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	x11-util-macros >= 1.0.1
 BuildArch:	noarch
